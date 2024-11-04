@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videa - FC Yvetka</title>
+    <style>
+        /* Základní stylování */
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sekce pro videa */
+        .video-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .video-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Kontejnery pro videa */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* Styl pro jednotlivá videa */
+        .video {
+            width: 300px;
+            height: 200px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        /* Styl pro návrat zpět */
+        .back-link {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            font-size: 20px;
+            color: white;
+            background-color: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tlačítko pro návrat na hlavní stránku -->
+    <a href="index.html" class="back-link">Zpět</a>
+
+    <!-- Sekce s videi -->
+    <section class="video-section">
+        <h2>Oddělení videa</h2>
+        <div class="video-container">
+            <div class="video">Video 1</div>
+            <div class="video">Video 2</div>
+            <div class="video">Video 3</div>
+        </div>
+    </section>
+
+</body>
+</html>
